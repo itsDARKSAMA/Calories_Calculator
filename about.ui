@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AboutWindow</class>
+ <widget class="QMainWindow" name="AboutWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>440</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DaRK Calories Calculator | About</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/images/images/icon.svg</normaloff>:/images/images/icon.svg</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">   *:focus {
+    	border: none;
+    	outline: none;
+    }
+</string>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>50</width>
+    <height>50</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="bg_label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>440</width>
+      <height>450</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/images/images/background2.svg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="be_logo">
+    <property name="geometry">
+     <rect>
+      <x>155</x>
+      <y>387</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-image: url(:/images/images/behacne.svg); 
+}
+</string>
+    </property>
+    <property name="text">
+     <string>    &lt;a href=&quot;https://behance.net/darksama&quot; style=&quot;color: rgba(255, 255, 255, 0); text-decoration: none; font-size: 20px; text-align: center;&quot;&gt;beh&lt;/a&gt;
+</string>
+    </property>
+    <property name="openExternalLinks">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="git_logo">
+    <property name="geometry">
+     <rect>
+      <x>205</x>
+      <y>387</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/images/images/github.svg);</string>
+    </property>
+    <property name="text">
+     <string>&lt;a href=&quot;https://github.com/itsdarksama&quot; style=&quot;color: rgba(255, 255, 255, 0); text-decoration: none; font-size: 20px; text-align: center;&quot;&gt;git&lt;/a&gt;
+</string>
+    </property>
+    <property name="openExternalLinks">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gpl_logo">
+    <property name="geometry">
+     <rect>
+      <x>255</x>
+      <y>387</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/images/images/gpl3.svg);</string>
+    </property>
+    <property name="text">
+     <string>    &lt;a href=&quot;https://www.gnu.org/licenses/gpl-3.0.en.html&quot; style=&quot;color: rgba(255, 255, 255, 0); text-decoration: none; font-size: 20px; text-align: center;&quot;&gt;gpl&lt;/a&gt;
+</string>
+    </property>
+    <property name="openExternalLinks">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exitButton">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>20</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color:#D4D4D4;
+font: 13pt &quot;Rubik&quot;;
+border:none;
+background-color:rgba(255, 255, 255, 0);
+}
+
+QPushButton:hover{
+color:#192125;
+}</string>
+    </property>
+    <property name="text">
+     <string>X</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,19 @@
+<RCC>
+  <qresource prefix="images">
+    <file>images/icon.svg</file>
+    <file>images/arrow.svg</file>
+    <file>images/background_2.svg</file>
+    <file>images/background_3.svg</file>
+    <file>images/background.svg</file>
+    <file>images/github.svg</file>
+    <file>images/behacne.svg</file>
+    <file>images/background2.svg</file>
+    <file>images/gpl3.svg</file>
+    <file>images/radio_selected_hover.svg</file>
+    <file>images/radio_selected_pressed.svg</file>
+    <file>images/radio_selected.svg</file>
+    <file>images/radio_unchecked_hover.svg</file>
+    <file>images/radio_unchecked_pressed.svg</file>
+    <file>images/radio_unchecked.svg</file>
+  </qresource>
+</RCC>
