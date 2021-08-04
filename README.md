@@ -2,7 +2,9 @@
 The Easiest & Fastest Way To Calculate Your Calorie Needs
  -->
 
-![DaRK Calculator](images/header.png)
+<!-- ![DaRK Calculator](images/header.png) -->
+<p align="center">
+<img src="images/header.png"></p>
 
 
 # 
@@ -19,12 +21,15 @@ By using Mifflin - St Jeor equation & using Adolphe Quetelet equation
 
 # Screenshots
 
+<p align="center">
 
-![DaRK Calculator](https://mir-s3-cdn-cf.behance.net/project_modules/disp/092bdd123682903.60f378f2be853.png)
+<img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/092bdd123682903.60f378f2be853.png">
+<!-- <br> -->
+<img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/50f337123682903.60f378f2bde7b.png"/>
 
-![DaRK Calculator](https://mir-s3-cdn-cf.behance.net/project_modules/disp/50f337123682903.60f378f2bde7b.png)
-
-You can find the full presentations on <a href="https://www.behance.net/gallery/123682903/DaRK-Calories-Calculator-UIUX">Behance</a>
+<p align="center">You can find the full presentations on <a href="https://www.behance.net/gallery/123682903/DaRK-Calories-Calculator-UIUX">Behance</a>
+</p>
+</p>
 
 # How To use / install it
 
@@ -81,6 +86,7 @@ if you want to edit the ui files you need to install Qt5 Designer
 <br>
 <br>
 
-![DaRK Calculator](images/Thanks.png)
 
-<p align="center">The full presentation on <a href="https://www.behance.net/gallery/123682903/DaRK-Calories-Calculator-UIUX">Behance</a></p>
+
+
+<p align="center"><img src="images/Thanks.png"> <br>The full presentation on <a href="https://www.behance.net/gallery/123682903/DaRK-Calories-Calculator-UIUX">Behance</a></p>
