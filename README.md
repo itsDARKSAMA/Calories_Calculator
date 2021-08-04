@@ -70,7 +70,13 @@ python3 main.py
 
 if you want to edit the ui files you need to install Qt5 Designer
 
-# Other
+<br>
+
+## You need to install Rubik fonts if you haven't
+#### 
+<p >you can unzip Rubik.zip file or you can download it from <a href="https://fonts.google.com/specimen/Rubik">Google Fonts </a></p>
+
+<hr>
 
 <br>
 <br>
